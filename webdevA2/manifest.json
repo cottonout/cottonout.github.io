@@ -1,0 +1,15 @@
+{ 
+    "name": "Space Website",
+    "short_name": "SW",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#00FF00",
+    "icons": [
+        { 
+            "src": "images/favicon.ico",
+            "sizes": "16x16",
+            "type": "image/ico"
+        }
+    ]
+}

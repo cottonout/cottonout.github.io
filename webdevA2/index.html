@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Home</title>
+</head>
+<body>
+    <!-- Home Navigation -->
+    <nav id="mainNav">
+        <button id="homebtn"><b>SPACE</b></button>
+        <div id="navBar">
+            <ul>
+                <li>
+                    <button id="closeMenu"></button>
+                </li>
+                <li>
+                    <button id="page1btn">History</button>
+                </li>
+                <li>
+                    <button id="page2btn">Solar System</button>
+                </li>
+                <li>
+                    <button id="page3btn">Holes</button>
+                </li>
+                <li>
+                    <button id="page4btn">Game</button>
+                </li>
+            </ul>
+        </div>
+        <button id="openMenu"></button>
+    </nav>
+
+    <!-- Hero -->
+    <header>
+        <div id="hero">
+            <div class="content">
+                <h1>Space, and its <span class="nowrap"><br>Everlasting Expanse</span></h1>
+            </div>
+
+            <!-- Fullscreen and Widescreen buttons -->
+            <button id="btnFS"><img src="images/fullscreen.ico" alt="fullscreen icon"></button>
+            <button id="btnWS" class="hide"><img src="images/widescreen.ico" alt="widescreen icon"></button>
+        </div>
+    </header>
+
+    <!-- Main Pages -->
+    <main id="pagecontainer">
+        <!-- Page 1 / Image Gallery -->
+        <section class="page" id="page1">
+            <h2>History of the Universe</h2>
+
+            <!-- Grid Gallery containing topics -->
+            <div id="topics">
+                <!-- Container with background image and content -->
+                <article class="topic">
+                    <!-- Content (displayed upon click) -->
+                    <div class="topic-content">
+                        <h3>Big Bang</h3>
+                        <p>
+                            After cosmic inflation stopped, energy transferred to matter and light, causing the universe to expand exponentially, much faster than the speed of light, for a brief period of time. During that period of time, the universe's earliest elements, Hydrogen, Helium, Lithium and Beryllium soon came to creation. Soon after, the universe had cooled enough and expanded at a much slower and gradual rate.
+                        </p>
+                    </div>
+                </article>
+                <article class="topic">
+                    <div class="topic-content">
+                        <h3>Cosmic Inflation</h3>
+                        <p>
+                            13.8 billion years ago, the universe expanded from an extremely small, extremely hot and extremely dense state faster than the speed of light for a fraction of a second. It has expanded since then and become less dense and cooler. The expansion of the universe actually refers to the increase in the space between galaxies.
+                        </p>
+                    </div>
+                </article>
+                <article class="topic">
+                    <div class="topic-content">
+                        <h3>What lies for the future?</h3>
+                        <p>For many years, scientists thought the universe's current expansion was slowing down. But in fact, cosmic expansion is speeding up. In 1998, astronomers found that certain supernovae, bright stellar explosions, were fainter than expected. They concluded this could only happen if the supernovae had moved farther away, at a faster rate than predicted. Scientists suspect a mysterious substance they call dark energy is accelerating expansion. Future research may yield new surprises, but cosmologists suggest it's likely the universe will continue to expand forever.</p>
+                    </div>
+                </article>
+                <article class="topic">
+                    <div class="topic-content">
+                        <h3>First Stars</h3>
+                        <p>
+                            Gas was not uniformly distributed throughout the universe. Cooler areas of space were lumpier, with denser clouds of gas. As these clumps grew more massive, their gravity attracted additional matter. As they became denser, and more compact, the centers of these clumps became hotter - hot enough that nuclear fusion occurred in their centers. These were the first stars. They were 30 to 300 times more massive than our Sun and millions of times brighter. Over several hundred million years, the first stars collected into the first galaxies.
+                        </p>
+                    </div>
+                </article>
+                <article class="topic">
+                    <div class="topic-content">
+                        <h3>Dark Ages</h3>
+                        <p>
+                            After the formation of the very first atoms, the universe became opaque at shorter wavelengths due to the absorbing effects of all the hydrogen atoms. For the next 200 million years, the universe remained dark. There were no stars to shine. At this point, the universe consisted of a sea of hydrogen atoms, helium and traces of heavier elements.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- Page 2 / Solar System Cards -->
+        <section class="page" id="page2">
+            <!-- Intro -->
+            <div class="intro">
+                <h2>Solar System</h2>
+                <p>There are 9 planets in the Solar System</p>
+            </div>
+            
+            <!-- Container containing the cards -->
+            <div class="container">
+                <!-- Card which is positioned according to the number of cards in the container -->
+                <div class="card">
+                    <!-- Inner content of the card (Planet and overlay) -->
+                    <div class="inner">
+                        <img src="images/mercury.jpg" alt="Picture of the planet Mercury">
+                        <div class="overlay">
+                            <h3>Mercury</h3>
+                            <p>The first and smallest planet from the Sun. It is only slightly larger than Earth's moon. From Mercury, the sun would be three times larger, and seven times brighter than it is on Earth. It is extremely hot and cold, with temperatures reaching up to 430 degrees celcius in the day, and -180 degrees celcius in the night with no atmosphere to retain heat unlike Earth. It is the fastest planet, orbiting around the Sun every 88 Earth days.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/venus.jpg" alt="Picture of the planet Venus">
+                        <div class="overlay">
+                            <h3>Venus</h3>
+                            <p>The second planet from the Sun, and closest to Earth. It is the hottest planet in the solar system, sometimes being called Earth's twin. It is the third brightest object in the sky after the Sun and Moon. Its thick atmosphere traps heat, making it the hottest planet in the solar system with temperatures high enough to melt lead. Beneath the dense, persistent clouds, its surface has volcanoes and deformed mountains.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/earth.jpg" alt="Picture of the planet Earth">
+                        <div class="overlay">
+                            <h3>Earth</h3>
+                            <p>The Third Planet from the Sun, and the only planet known to harbour life. This is due to Earth mainly consisting of water, the only planet in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its oceans, covering 70.8% of its crust.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/mars.jpg" alt="Picture of the planet Mars">
+                        <div class="overlay">
+                            <h3>Mars</h3>
+                            <p>The Fourth Planet from the Sun, it is a dusty, cold, desert world with a very thin atmosphere. Mars has seasons, polar ice caps, extinct volcanoes, canyons and weather. Its red appearance is caused by iron minerals in the Martian dirt oxidising, giving it its namesake, "Red Planet"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/jupiter.jpg" alt="Picture of the planet Jupiter">
+                        <div class="overlay">
+                            <h3>Jupiter</h3>
+                            <p>The fifth planet from the sun and the largest in the Solar System. It is also the oldest planet, forming from dust and gases left over from the Sun's formation 4.6 billion years ago. It has the shortest day, lasting only 9.9 hours.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/saturn.jpg" alt="Picture of the planet Saturn">
+                        <div class="overlay">
+                            <h3>Saturn</h3>
+                            <p>It is the Sixth Planet from the Sun, and is the second-largest planet in the solar system. It is a massive ball made of mostly hydrogen and helium. It is not the only planet to have rings, but it has the most spectacular and complex ones. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/uranus.jpg" alt="Picture of the planet Uranus">
+                        <div class="overlay">
+                            <h3>Uranus</h3>
+                            <p>It is the seventh planet from the Sun, and has the third largest diameter in the solar system. It spins almost sideways, orbiting the Sun like a rolling ball. It is a very cold and windy planet, surrounded by 13 faint rings and 28 small moons.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <img src="images/neptune.jpg" alt="Picture of the planet Neptune">
+                        <div class="overlay">
+                            <h3>Neptune</h3>
+                            <p>It is the eighth and most distant planet in the Solar System. It is dark, cold and whipped by super sonic winds, and is known as an ice giant. It is 30 times as far from the Sun as Earth. Neptune is the only planet in the solar system not visible to the naked eye. It is so far from the sun, that high noon would seem like dim twilight to us. The warm light we see on Earth is roughly 900 times as bright as sunlight on Neptune.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fun Fact -->
+            <article>
+                <h2>9 planets to 8 Planets?</h2>
+                <p>Did you know? The Solar System used to have 9 planets! The ninth planet was actually Pluto. However, in the late 1990s, astronomers began debating over whether or not Pluto was still considered a planet. The requirements for a planet are:</p>
+                <ol>
+                    <li>It orbits the sun</li>
+                    <li>Is Spherical or nearly spherical due to its gravity</li>
+                    <li>Has "cleared the neighbourhood" of its orbit</li>
+                </ol>
+            </article>
+
+            <!-- Quiz -->
+            <article>
+                <h2>Revision Quiz</h2>
+                <!-- Quiz Container -->
+                <div class="quizContainer">
+                    <!-- Quiz Display -->
+                    <div class="quiz">
+                        <!-- Quiz Question -->
+                        <h3 id="question">1. Which of these requirements must be fufilled for a planet?</h3>
+                        <!-- Answers -->
+                        <div id="answer-buttons">
+                            <label><input name="option" type="radio" value="wrong"></label>
+                            <label><input name="option" type="radio" value="wrong"></label>
+                            <label><input name="option" type="radio" value="wrong"></label>
+                            <label><input name="option" type="radio" value="wrong"></label>
+                        </div>
+                        <button>Next</button>
+                    </div>
+                </div>
+            </article> 
+        </section>
+    
+
+        <!-- Page 3 / Carousel -->
+        <section class="page" id="page3">
+            <!-- Intro -->
+            <div class="intro">
+                <h2>Theories of Space</h2>
+            </div> 
+            
+            <!-- Slider / Carousel Container -->
+            <section id="slider">
+                <!-- Slider Navigation -->
+                <nav class="arrows">
+                    <!-- Up button -->
+                    <button id="up"><img src="images/uparrowwhite.png" alt="icon of an up arrow"></button>
+                    <!-- Down button -->
+                    <button id="down"><img src="images/downarrowwhite.png" alt="icon of a down arrow"></button>
+                </nav>
+
+                <!-- Mask -->
+                <div class="focus"></div>
+
+                <!-- Slider Items List -->
+                <ul class="list">
+                    <!-- Item -->
+                    <li class="item">
+                        <h2>Black Holes</h2>
+                        <p>Black Holes are formed when dead stars grow too dense, warping the fabric of space-time downwards infinitely. They are extremely dense that gravity beneath its surface, the event horizon, is strong enough that nothing - not even light - can escape. The event horizon is a boundary that contains all matter that makes up the black hole.</p>
+                        <button class="more">More</button>
+                        <img src="images/blackhole.jpg" alt="Picture of a black hole">
+                    </li>
+                    <li class="item">
+                        <h2>White Hole Theory</h2>
+                        <p>Theoretical tunnels through spacetime that potentially connect distant points in the universe. Theoretically, it could create a shortcut from long journeys across the universe. However, they are prone to sudden collapse, high radiation and dangerous contact with exotic matter.</p>
+                        <button class="more">More</button>
+                        <img src="images/whitehole.jpg" alt="Picture of a white hole">
+                    </li>
+                    <li class="item">
+                        <h2>Worm Hole Theory</h2>
+                        <p>Theoretical opposite of black holes, nothing can enter, but matter and light can escape. Objects can only be ejected, but not absorbed. This is only a theory, with no real-world counterpart.</p>
+                        <button class="more">More</button>
+                        <img src="images/wormhole.jpg" alt="Picture of a worm hole">
+                    </li>
+                    <li class="item">
+                        <h2>Multiverse Theory</h2>
+                        <p>The Multiverse Theory suggests that our universe may not be the only one. In fact, there may be an infinity of universes with their own laws of physics, their own collection of stars and galaxies, and even their own intelligent civilizations. You may see this a lot in the Marvel Series.</p>
+                        <button class="more">More</button>
+                        <img src="images/multiverse.jpg" alt="Picture of the multiverse">
+                    </li>
+                    <li class="item">
+                        <h2>Big Freeze Theory</h2>
+                        <p>Scientists have theorised that eventually, our universe will cool as it expands, reaching to a point where it is too cold to sustain life. This is also known as Heat Death, where heat in the system is distributed evenly, leaving no energy to be used.</p>
+                        <button class="more">More</button>
+                        <img src="images/bigfreeze.webp" alt="Picture of the big freeze">
+                    </li>
+                </ul>
+                
+                <!-- Extra content list -->
+                <ul class="extraList">
+                    <li class="extra">
+                        <h2>What happens if you fall inside a black hole?</h2>
+                        <p>You go through "spaghettification". Your body will violently contort and explode due to the contrasting different gravitational forces. Its gravity would exert a much stronger pull on your feet than your head, stretching you out along the direction of travel and turning you into a noodle.</p>
+                        <button class="close">Close</button>
+                    </li>
+
+                    <li class="extra">
+                        <h2>What happens if you fall inside a white hole?</h2>
+                        <p>It's impossible to fall inside a white hole. White holes act as anit-black holes, in which they repel all matter and light.</p>
+                        <button class="close">Close</button>
+                    </li>
+
+                    <li class="extra">
+                        <h2>What happens if you fall inside a worm hole?</h2>
+                        <p>Due to the unstable nature of worm holes, you would most likely go through "spaghettification", and come out as radiation on the other side of the worm hole. Worm holes are very prone to collapsing quickly, before the person could even travel any significant distance.</p>
+                        <button class="close">Close</button>
+                    </li>
+
+                    <li class="extra">
+                        <h2>Is it possible to travel to other universes?</h2>
+                        <p>Unfortunately, no. Universes are far beyond the observable horizon of space, and move away much faster than the speed of light. It would be impossible no matter what to travel to another universe.</p>
+                        <button class="close">Close</button>
+                    </li>
+
+                    <li class="extra">
+                        <h2>Big Crunch</h2>
+                        <p>While the Big Freeze seems like the most likely possibility for the fate of the universe, other scientists have theorised the Big Crunch Theory. It refers to the universe's expansion eventually reversing and collapsing in on itself, possibly leading to a singularity similar to the Big Bang, though the opposite of it.</p>
+                        <button class="close">Close</button>
+                    </li>
+                </ul>
+
+                <!-- Mask -->
+                <div class="focus"></div>
+            </section>
+        </section>
+
+
+        <!-- Page 4 / Minigame -->
+        <section class="page" id="page4">
+            <!-- Intro -->
+            <div class="intro">
+                <h2>Solar System Revision Minigame</h2>
+            </div> 
+            
+            <!-- Game Container -->
+            <div class="game">
+                <!-- Display for obtained planets -->
+                <div class="gui">
+                    <ul class="planetsObtained"></ul>
+                </div>
+
+                <!-- Game Screen -->
+                <div class="screen">
+                    <!-- Start Screen -->
+                    <div class="blackScreen">
+                        <button>Start</button>
+                        <p>PC: W to rise up<br>Mobile: Click on the button to rise up</p>
+                        <p>Collect the planets in an ascending order based off of their distance from the sun.</p>
+                        <p>Do not touch the top or bottom of the screen or you lose</p>
+                        <p>Use the slider to adjust the speed of the planets</p>
+                    </div>
+
+                    <!-- Player -->
+                    <div class="player"></div>
+
+                    <!-- End Screen -->
+                    <div class="endScreen">
+                        <p>Score: </p>
+                        <button>Try Again?</button>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button id="jump">Jump</button>
+                <input type="range" id="speedSlider" min="0" max="100">
+            </div>
+        </section>
+
+
+        <!-- Website-wide controls -->
+        <button id="topBtn"></button>
+        <button id="musicBtn"></button>
+    </main>
+
+    <footer>
+        <!-- Content (Contact) -->
+        <div class="content">
+            <h3>Stay Connected</h3>
+            <p class="transparent">Write down your email and sign up for our newsletter for more information and updates regarding space!</p>
+            <div>
+                <label for="email-field">
+                    Email: 
+                    <input id="email-field" type="email" placeholder="Type your email here">
+                </label>
+                <button>
+                    Sign Up
+                </button>
+            </div>
+        </div>
+
+        <!-- Content (Fun Fact + Socials )-->
+        <div class="content">
+            <h3>Fun Fact</h3>
+            <p class="transparent">Many things regarding Space are still unknown. In fact, there are theories that there may be a different universe out there, with alternate versions of ourselves! One day, we might even discover the existence of a real multiverse.</p>
+            <div class="socials">
+                <div id="fb"><a href="https://www.facebook.com/NASA/" target="_blank"></a></div>
+                <div id="ig"><a href="https://www.instagram.com/nasa/?hl=en" target="_blank"></a></div>
+                <div id="twt"><a href="https://x.com/NASA" target="_blank"></a></div>
+            </div>
+        </div>
+
+        <!-- QR Code for mobile site -->
+        <div id="qrCodeImg">
+            <img src="images/qrcode.png" alt="QR code for the mobile site">
+        </div>
+    </footer>
+</body>
+</html>
